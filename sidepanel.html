@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Snow AI</title>
+  <link rel="stylesheet" href="app.css" />
+</head>
+<body>
+  <header>
+    <div>
+      <p class="eyebrow">Support N1 · démo</p>
+      <h1>Snow AI</h1>
+    </div>
+    <div class="header-actions">
+      <span id="hub-status" class="hub-pill">Hub…</span>
+      <button type="button" id="btn-options" title="Réglages">⚙</button>
+    </div>
+  </header>
+  <p id="banner" class="banner hidden"></p>
+  <p id="banner-action" class="banner-action hidden">
+    <button type="button" id="btn-retry">Réessayer</button>
+  </p>
+  <label class="field">
+    Ticket
+    <select id="ticket"></select>
+  </label>
+  <article id="ticket-card" class="card hidden"></article>
+  <button type="button" id="btn-ask" class="primary" disabled>Proposer une résolution</button>
+  <section id="result" class="result hidden"></section>
+  <script src="app.js"></script>
+</body>
+</html>

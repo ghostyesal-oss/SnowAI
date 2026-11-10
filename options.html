@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Réglages Snow AI</title>
+  <link rel="stylesheet" href="app.css" />
+</head>
+<body class="options">
+  <p class="eyebrow">Extension → hub uniquement</p>
+  <h1>Connexion</h1>
+  <p class="hint">Démo locale : laissez les valeurs par défaut. Pas de clé Groq dans l’extension.</p>
+  <label class="field">URL hub
+    <input id="supabaseUrl" placeholder="http://127.0.0.1:8787" />
+  </label>
+  <label class="field">Clé (anon ou local-demo)
+    <input id="anonKey" placeholder="local-demo" />
+  </label>
+  <button type="button" id="save" class="primary">Enregistrer</button>
+  <p id="banner" class="banner hidden"></p>
+  <script src="options.js"></script>
+</body>
+</html>
